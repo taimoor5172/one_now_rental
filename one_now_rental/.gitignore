@@ -1,0 +1,30 @@
+# Ignore virtual environment
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Django stuff
+*.log
+db.sqlite3
+staticfiles/
+media/
+
+# Migrations
+**/migrations/*.py
+**/migrations/__pycache__/
+
+# macOS
+.DS_Store
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Testing
+.coverage
+.pytest_cache/
+
+# Environment variables
+.env

@@ -50,6 +50,6 @@ class Booking(models.Model):
         if self.start_date and self.end_date and self.vehicle:
             # Calculate total amount
             days = (self.end_date - self.start_date).days
-            self.total_amount = Decimal(str(days)) * self.vehicle.daily_rate
+            self.total_amount = Decimal(str(days)) * Decimal(self.vehicle.daily_rate)
         
         super().save(*args, **kwargs)

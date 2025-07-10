@@ -50,8 +50,8 @@ These features work together to help you:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/car-rental-api.git
-cd car-rental-api
+git clone https://github.com/yourusername/one_now_rental.git
+cd one_now_rental
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
